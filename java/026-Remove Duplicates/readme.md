@@ -8,4 +8,4 @@ Given input array nums = [1,1,2],
 Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.
 
 
-本题的关键在于建立两个索引，一个快，一个慢。
+本题的关键在于遍历数组两个索引的建立，一个快，一个慢。
