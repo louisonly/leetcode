@@ -5,7 +5,7 @@ class Solution {
         for(int i = 0; i < nums.length -3 ; i++){
             if(i == 0 || nums[i] != nums[i-1]){
                 for(int j = i + 1; j < nums.length - 2; j++){
-                    if(j == i + 1 || nums[j] != nums[j-1]){
+                    if(j == i + 1 || nums[j] != nums[j-1]){  //这儿 j == i + 1 的判断条件很关键，否则会出错，
                         int start = j + 1, end = nums.length -1, value = target - nums[i] - nums[j];
                         while(start < end){
                             if(nums[start] + nums[end] == value){
